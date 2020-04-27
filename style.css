@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+:root {
+  --darkBlue: hsl(243, 87%, 12%);
+  --desaturatedBlue: hsl(238, 22%, 44%);
+  --brightBlue: hsl(224, 93%, 58%);
+  --cyan: hsl(170, 45%, 43%);
+  --lightGrayBlue: hsl(240, 75%, 98%);
+  --lightGray: hsl(0, 0%, 75%);
+  --black: #111111;
+  --white: #ffffff;
+
+  --headingFont: 'Raleway', sans-serif;
+  --bodyFont: 'Open Sans', sans-serif;
+  --textColor: var(--darkBlue);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headingFont);
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textColor);
+  cursor: pointer;
+}
+
+body {
+  font-family: var(--bodyFont);
+  color: var(--textColor);
+  background: var(--white);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+  min-width: 300px;
+  padding: 1.5rem;
+}
+
+input {
+  border: 1px solid var(--darkBlue);
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  background-color: var(--brightBlue);
+  color: var(--lightGrayBlue);
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  border: none;
+  font-family: var(--headingFont);
+  font-weight: bold;
+}
+
+/* ================================================== */
+/* Navbar */
+/* ================================================== */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__logoLink {
+  margin-right: 3rem;
+  width: 175px;
+}
+
+.nav__links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  font-size: 0.9rem;
+}
+
+/* ================================================== */
+/* Header Hero */
+/* ================================================== */
+.header__hero {
+  margin-top: 15vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+
+.header__info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title {
+  margin-bottom: 1.5rem;
+}
+
+.header__p {
+  width: 75%;
+  margin-bottom: 1.5rem;
+}
+
+.header__formInput {
+  margin-bottom: 1rem;
+}
+
+/* ================================================== */
+/* Footer */
+/* ================================================== */
+/* Attribution in footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
