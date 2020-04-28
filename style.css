@@ -217,6 +217,52 @@ button {
   font-size: 0.75rem;
 }
 
+.body__2 {
+  background-color: var(--desaturatedBlue);
+  color: var(--white);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.body2__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-content: center;
+  align-items: center;
+}
+
+.body__2 .body__info {
+  margin: 0 auto 1rem;
+  text-align: center;
+}
+
+.body__2 .body__heading {
+  margin-bottom: 1.5rem;
+}
+
+.body__2 .body__p {
+  color: var(--white);
+}
+
+.body__2 .body__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body__2 .body__formEmailInput {
+  width: 50%;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 0.75rem;
+}
+
+.body__2 .body__formButton {
+  width: 50%;
+  border-radius: 3px;
+}
+
 /* ================================================== */
 /* Footer */
 /* ================================================== */
