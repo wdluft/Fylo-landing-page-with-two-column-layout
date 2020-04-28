@@ -266,6 +266,11 @@ button {
 /* ================================================== */
 /* Footer */
 /* ================================================== */
+.footer {
+  background: var(--darkBlue);
+  color: var(--white);
+}
+
 /* Attribution in footer */
 .attribution {
   font-size: 11px;
