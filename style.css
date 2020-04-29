@@ -150,6 +150,13 @@ button {
   left: 0;
 }
 
+.body__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  justify-content: center;
+  align-items: start;
+}
+
 .body__1 {
   position: relative;
   background-color: var(--lightGrayBlue);
@@ -223,13 +230,6 @@ button {
   color: var(--white);
   padding-top: 5vh;
   padding-bottom: 5vh;
-}
-
-.body__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  justify-content: center;
-  align-items: start;
 }
 
 .body__2 .body__info {
