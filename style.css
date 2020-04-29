@@ -152,7 +152,7 @@ button {
 
 .body__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   justify-content: center;
   align-items: start;
 }
@@ -312,7 +312,7 @@ button {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 680px) {
   .header__hero {
     grid-auto-flow: dense;
   }
